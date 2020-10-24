@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    max-width: calc(100% - 100px) / 2;
+    text-align: center;
+    font-family: arial;
+}
+
+.card p {
+    height: 50px;
+}
+
+.card h1 {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.card .btn {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+h1 {
+	text-align: center;
+	line-height: 6rem;
+}
+
+form {
+	display: inline-block;
+}
+
+footer {
+    margin-top: 200px;
+    padding-top: 50px;
+    border-top: 2px solid #888;
+}
+
+footer .btn-link {
+    color: #888;
+}
+
+.cc-facebook:hover i {
+    color: #3b5998;
+}
+
+.cc-github:hover i {
+    color: #000000;
+}
+
+.cc-linkedin:hover i {
+    color: #0073b1;
+}
+
+.cc-youtube:hover i {
+    color: #dd4b39;
+}
